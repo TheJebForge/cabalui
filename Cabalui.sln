@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cabalui", "Cabalui\Cabalui.csproj", "{9514E340-D2E1-4621-8F89-3A0192E7ECA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CabaluiTest", "CabaluiTest\CabaluiTest.csproj", "{DEF77B10-558B-4699-9D00-607E9CB5C3F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CabaluiNative", "CabaluiNative\CabaluiNative.csproj", "{58E08394-DF8D-42F3-A04D-2A83792664FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9514E340-D2E1-4621-8F89-3A0192E7ECA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9514E340-D2E1-4621-8F89-3A0192E7ECA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9514E340-D2E1-4621-8F89-3A0192E7ECA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9514E340-D2E1-4621-8F89-3A0192E7ECA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEF77B10-558B-4699-9D00-607E9CB5C3F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEF77B10-558B-4699-9D00-607E9CB5C3F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEF77B10-558B-4699-9D00-607E9CB5C3F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEF77B10-558B-4699-9D00-607E9CB5C3F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58E08394-DF8D-42F3-A04D-2A83792664FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58E08394-DF8D-42F3-A04D-2A83792664FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58E08394-DF8D-42F3-A04D-2A83792664FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58E08394-DF8D-42F3-A04D-2A83792664FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

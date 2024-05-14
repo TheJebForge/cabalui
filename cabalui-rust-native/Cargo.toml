@@ -1,0 +1,18 @@
+[package]
+name = "cabalui-rust-native"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "cabalui_native_test"
+path = "src/run.rs"
+
+[target.'cfg(any(target_os = "windows", target_os = "linux"))'.dependencies]
+skia-safe = { version = "0.73.0", features = ["gl"] }
+gl = "0.14.0"
+
+[target.'cfg(target_os = "windows")'.dependencies]
+glfw = { version = "0.55.0", default-features = false }
+
+[target.'cfg(target_os = "linux")'.dependencies]
+glfw = { version = "0.55.0", features = ["wayland"] }
